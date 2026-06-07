@@ -1,0 +1,56 @@
+Algoritmo SignosZodiacales
+	definir nombre Como Caracter
+	Definir dia, mes, año Como Entero
+	escribir "ingresa tu nombre"
+	Leer nombre
+	Escribir "Ingresa tu día de nacimiento (1-31):"
+	Leer dia
+	Escribir "Ingresa tu mes de nacimiento (1-12):"
+	Leer mes
+	Escribir "ingresa tu año de nacimiento"
+	leer año
+	
+	
+	Si (mes == 3 Y dia >= 21) O (mes == 4 Y dia <= 19) Entonces
+		Escribir "Tu signo es Aries"
+	FinSi
+	Si (mes == 4 Y dia >= 20) O (mes == 5 Y dia <= 20) Entonces
+		Escribir "Tu signo es Tauro"
+	FinSi
+	Si (mes == 5 Y dia >= 21) O (mes == 6 Y dia <= 20) Entonces
+		Escribir "Tu signo es Géminis"
+	FinSi
+	Si (mes == 6 Y dia >= 21) O (mes == 7 Y dia <= 22) Entonces
+		Escribir "Tu signo es Cáncer"
+	FinSi
+	Si (mes == 7 Y dia >= 23) O (mes == 8 Y dia <= 22) Entonces
+		Escribir "Tu signo es Leo"
+	FinSi
+	Si (mes == 8 Y dia >= 23) O (mes == 9 Y dia <= 22) Entonces
+		Escribir "Tu signo es Virgo"
+	FinSi
+	Si (mes == 9 Y dia >= 23) O (mes == 10 Y dia <= 22) Entonces
+		Escribir "Tu signo es Libra"
+	FinSi
+	Si (mes == 10 Y dia >= 23) O (mes == 11 Y dia <= 21) Entonces
+		Escribir "Tu signo es Escorpio"
+	FinSi
+	Si (mes == 11 Y dia >= 22) O (mes == 12 Y dia <= 21) Entonces
+		Escribir "Tu signo es Sagitario"
+	FinSi
+	Si (mes == 12 Y dia >= 22) O (mes == 1 Y dia <= 19) Entonces
+		Escribir "Tu signo es Capricornio"
+	FinSi
+	Si (mes == 1 Y dia >= 20) O (mes == 2 Y dia <= 18) Entonces
+		Escribir "Tu signo es Acuario"
+	FinSi
+	Si (mes == 2 Y dia >= 19) O (mes == 3 Y dia <= 20) Entonces
+	FinSi
+	
+	Imprimir "Nombre : ", nombre
+	Imprimir "RESULTADO DE SU SIGNO ZODIACAL " 
+	Imprimir "****************************************"
+	Imprimir "****************************************"
+
+	
+FinAlgoritmo
